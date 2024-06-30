@@ -1,0 +1,296 @@
+.activeAlerts {
+    color: gray;
+    margin-bottom: 0px;
+    font-size: 14px;
+    margin-left: 18px;
+    margin-top: 10px;
+}
+
+#patient-gap-details table tr td {
+    padding: 0.5rem 0.5rem;
+    margin: 0px;
+    color: #0d6efd;
+    padding-left: 0px;
+    font-size: 12px;
+    /* border-top:"solid white " */
+}
+
+tr {
+    margin-bottom: solid 10px;
+
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.red-flag::before {
+    content: "";
+    width: 2px;
+    color: red;
+}
+
+.red-flag {
+    /* border-color: red; */
+    /* border-left: solid red 10px; */
+    background-color: red;
+    /* border-bottom:solid white 10px ; */
+    /* width: 0px; */
+    /* writing-mode: horizontal-tb; */
+    /* margin-bottom: 10px; */
+    /* border-bottom: solid rgb(15, 14, 14) 10px; */
+}
+
+.yellow-flag {
+    /* border-color: red; */
+    /* border-inline-start: solid yellow 10px; */
+    background-color: yellow;
+    /* width: 0px; */
+    /* 
+    writing-mode: horizontal-tb; */
+}
+
+#nameRedFlag {
+    background-image: linear-gradient(to right, red 30%, transparent 60%);
+    width: 2px
+}
+
+#nameYellowFlag {
+    background-image: linear-gradient(to right, yellow 30%, transparent 60%);
+    width: 2px
+}
+#nameGreenFlag{
+    background-image: linear-gradient(to right, Green 30%, transparent 60%);
+    width: 2px 
+}
+.reporting-table-header1{
+    color: rgb(10 10 10);
+    font-weight: 454;
+    font-size: 13px;
+    border:transparent ;
+}
+.reporting-table-header2{
+    color: rgb(10 10 10);
+    font-weight: 454;
+    font-size: 15px;
+    border:transparent ;
+}
+.reporting-table-body{
+    text-align: right;
+    background-color: rgb(199 216 247);
+}
+#patient-reporting-details tr td{
+    padding: 1%;
+    border:transparent;
+}
+#breakline{
+    margin: 0rem 0;
+    
+    
+}
+.reportingAlerts{
+    color: rgb(106 100 100);
+    font-weight: 900;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+#TotalMembers{
+    margin-top: 10px;
+    font-weight: 500;
+    /* margin-left: 244px; */
+}
+.wrapper {
+  border: transparent;
+  background-color: rgb(53, 21, 232);
+ 
+}
+
+ #hccstable tr td{
+    padding-right: 0px;
+    padding: 0px;
+}
+
+.peogressbarcontainer{
+  background-color: rgb(4, 169, 4);
+  /* width:50%; */
+  height: 10px;
+  
+}
+
+.barCompleted {
+  background-color: rgb(32, 236, 100);
+  height: 10px;
+  width: 80%;
+}
+#progressBarbottom_text{
+    font-size: 9px;
+}
+/*.label {
+  font-size: 20px;
+  color: green; */
+/* } */
+.progressLable{
+    font-size: 13px;
+    justify-items: end;
+    display: flex;
+}
+.hccsstableRow{
+    
+}
+.hcc12{
+/* justify-content: space-around; */
+display: flex;
+    justify-content: flex-start;
+    color: black;
+}
+.hccPercent{
+    /* margin-left: calc(10px + 100px); */
+    /* justify-content: end; */
+    color: rgb(4, 169, 4);
+}
+.hccRemainPercent{
+    display: flex;
+    justify-content: flex-end;
+color: rgb(53, 21, 232);
+}
+ .accordion-button::after {
+    display: none;
+  }
+  .accordion-button:not(.collapsed)::before {
+    transform: rotate(180deg);
+  }
+  .accordion-button::before {
+    position: absolute;
+    top: 20%;
+    right: 16px;
+    /* bottom: 10; */
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23fff%27%3e%3cpath fill-rule=%27evenodd%27 d=%27M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z%27/%3e%3c/svg%3e');
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform 0.2s ease;
+}
+.GoToReports{
+    margin-left: 59%;
+    font-size: 7px;
+    font-weight: 500;
+    transform: scale(1.9, 2);
+    /* margin-bottom: 10px;        */
+}
+.BacktoDashboard{
+    background-color:#4c8ceb;
+    /* margin-left: 74%; */
+    /* margin-top: -3%; */
+    padding-right: 30px;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    margin-top: 5px;
+    margin-right: 10px;
+    height: 40px;
+    /* min-height: 0.1rem; */
+    /* position: fixed; */
+}
+#setPaddingAccordBody{
+    /* padding-right: 20%;
+    padding-left: 20%; */
+    /* border: transparent; */
+    padding-bottom:15%
+}
+#ReportingContainer{
+    padding-right: 20%;
+    padding-left: 20%; 
+}
+.gapsAlerts{
+    background-color: #0d3f8b;
+    width:100%;
+    height: 50px;
+    max-height: 70px;
+}
+#gapsAlertsContainer{
+    color: white;
+    justify-content: space-between;
+
+}
+.gapAlert{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.gapsAlerts{
+    word-wrap: break-word; /* Break words to fit within the container */
+    overflow-wrap: break-word;
+}
+.gapAlertsPoweredby{
+    font-size: 10px;
+    width:50px;
+    margin-left: 10px;
+}
+.evenGapAlerts{
+    background-color: #dee2e6;
+    padding: 9px;
+    border-left: solid red 10px;
+    font-weight: 900;
+    margin-left: 2px;
+
+}
+.oddGapAlerts{
+padding: 9px;
+border-left: solid red 10px;
+font-weight: 900;
+margin-left: 2px;
+
+}
+.bottomBorderGapAlerts{
+    border-top: solid white 5px;
+
+}
+.ExampleResports{
+    color:#065ba5;
+    margin-top:3%;
+    margin-left: 13%;
+    margin-bottom: 10px;
+}
+#arrowgapsAlerts{
+    position: fixed;
+    /* top: 20%; */
+    /* right: 16px; */
+    /* bottom: 10; */
+    flex-shrink: 0;
+    /* width: 1.25rem;
+    height: 1.25rem; */
+    margin-left: auto;
+    content: "";
+    background-image: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23fff%27%3e%3cpath fill-rule=%27evenodd%27 d=%27M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z%27/%3e%3c/svg%3e');
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform 0.2s ease; 
+    rotate: 270deg;
+
+}
+.dashboardReportDetails{
+    align-items: center;
+    padding-left:30%;
+    padding-top: 30px;
+    padding-right:30%;
+    /* padding: 0 15px; */
+    margin-top:12%;
+    transform: scale(1.6,1.6); 
+    /* min-width: 60
+    max-height: 8px; vw;
+    max-height: 8px;  */
+    /* font-size: 1.6em; */
+    /* width: 160%; */
+    /* height: 160%;
+    width: 128%; */
+    word-wrap: break-word;
+  overflow-wrap: break-word;
+  /* font-stretch: expanded; */
+}
+.gapsAlertsBody{
+    /* position: fixed; */
+    /* align-items: center; */
+
+}
